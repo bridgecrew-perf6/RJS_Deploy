@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "./context";
 import AddContact from "./component/contacts/AddContact";
 //import router (được config trên trang home)
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./component/pages/About";
 import ContactDetail from "./component/contacts/ContactDetail";
 import NotFound from "./component/pages/NotFound";
